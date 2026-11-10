@@ -1,0 +1,97 @@
+
+<!-- 
+  Name: Hasana Fatima
+  Roll No: 25I-3089
+  Section: SE-B
+  Theme: Cafe Menu (Beige & Brown Theme)
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cafe Menu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="top-section">
+    <div class="top-text">
+      <h1>WELCOME</h1>
+      <h2>PLACE YOUR ORDER</h2>
+    </div>
+    <div class="top-image">
+      <img src="banner.jpg" alt="Welcome Image ">
+    </div>
+  </header>
+
+  <main class="menu-container">
+    <h1 class="main-title">MENU</h1>
+
+    <section class="menu-block">
+      <div class="menu-details">
+        <h3>COFFEES</h3>
+        <ul>
+          <li>Cappuccino</li>
+          <li>Latte</li>
+        </ul>
+        <button class="btn-view" onclick="viewMore('Coffees')">VIEW MORE</button>
+      </div>
+      <div class="menu-image">
+       
+        <img src="coffee.jpg" alt="Coffee Image ">
+      </div>
+    </section>
+
+    <section class="menu-block">
+      <div class="menu-details">
+        <h3>DRINKS</h3>
+        <ul>
+          <li>Slushes</li>
+          <li>Milkshakes</li>
+        </ul>
+        <button class="btn-view" onclick="viewMore('Snacks')">VIEW MORE</button>
+      </div>
+      <div class="menu-image">
+        <img src="drinks.jpg" alt="Snacks Image ">
+      </div>
+    </section>
+
+    <section class="menu-block">
+      <div class="menu-details">
+        <h3>DESSERTS</h3>
+        <ul>
+          <li>Cheesecakes</li>
+          <li>Cakes</li>
+        </ul>
+        <button class="btn-view" onclick="viewMore('Desserts')">VIEW MORE</button>
+      </div>
+      <div class="menu-image">
+
+        <img src="dessert.jpg" alt="Dessert Image ">
+      </div>
+    </section>
+
+    <div class="order-container">
+      <button class="btn-order" onclick="placeOrder()">ORDER NOW</button>
+    </div>
+  </main>
+
+  <script>
+    function viewMore(category) {
+      console.log(category + " view more button was clicked.");
+      window.alert("Fetching full details and menu options for " + category + "!");
+    }
+
+    function placeOrder() {
+      console.log("Main ORDER NOW button clicked.");
+      window.alert("Thank you! Your order has been placed successfully.");
+    }
+  </script>
+
+</body>
+</html>
+ 
+  </script>
+</body>
+</html>
