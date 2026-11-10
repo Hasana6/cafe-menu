@@ -1,0 +1,79 @@
+<!-- 
+  Name: Hasana Fatima
+  Roll No: 26I-3089
+  Section: SE-B
+  Theme: Cafe Home Page (Beige & Brown Theme)
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Warm Brew Cafe | Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="top-section">
+    <div class="top-text">
+      <h1>WARM BREW CAFE</h1>
+      <h2>FRESHLY BREWED EVERY DAY</h2>
+    </div>
+    <div class="top-image">
+      <img src="banner.jpg" alt="Cafe Ambiance Banner">
+    </div>
+  </header>
+
+  <main class="menu-container">
+    <h1 class="main-title">WELCOME TO OUR SPACE</h1>
+
+    <section class="menu-block">
+      <div class="menu-details">
+        <h3>OUR STORY</h3>
+        <ul>
+          <li>Crafted with organic coffee beans</li>
+          <li>Artisanal fresh bakery treats daily</li>
+        </ul>
+        <button class="btn-view" onclick="viewMore('Our Story')">LEARN MORE</button>
+      </div>
+      <div class="menu-image">
+        <img src="coffee.jpg" alt="Coffee Cup Image">
+      </div>
+    </section>
+
+    <section class="menu-block">
+      <div class="menu-details">
+        <h3>TODAY'S SPECIALS</h3>
+        <ul>
+          <li>Hazelnut Cream Cold Brew</li>
+          <li>Salted Caramel Cheesecake</li>
+        </ul>
+        <button class="btn-view" onclick="viewMore('Today Spec')">EXPLORE SPECIALS</button>
+      </div>
+      <div class="menu-image">
+        <img src="dessert.jpg" alt="Cafe Specials Image">
+      </div>
+    </section>
+
+    <section class="menu-block">
+      <div class="menu-details">
+        <h3>COZY ATMOSPHERE</h3>
+        <ul>
+          <li>Free high-speed Wi-Fi available</li>
+          <li>Quiet spaces for study and work</li>
+        </ul>
+        <button class="btn-view" onclick="viewMore('Ambiance')">VIEW GALLERY</button>
+      </div>
+      <div class="menu-image">
+        <img src="drinks.jpg" alt="Cafe Seating Area">
+      </div>
+    </section>
+
+    <div class="order-container">
+      <button class="btn-order" onclick="location.href='index.html'">EXPLORE FULL MENU</button>
+    </div>
+  </main>
+
+  <script src="code.js"></script>
+</body>
+</html>
