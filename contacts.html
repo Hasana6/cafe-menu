@@ -1,0 +1,79 @@
+<!-- 
+  Name: Hasana Fatima
+  Roll No: 26I-3089
+  Section: SE-B
+  Theme: Cafe Contact Page (Beige & Brown Theme)
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Warm Brew Cafe | Contact Us</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="top-section">
+    <div class="top-text">
+      <h1>CONTACT US</h1>
+      <h2>WE WOULD LOVE TO HEAR FROM YOU</h2>
+    </div>
+    <div class="top-image">
+      <img src="banner.jpg" alt="Contact Us Banner">
+    </div>
+  </header>
+
+  <main class="menu-container">
+    <h1 class="main-title">GET IN TOUCH</h1>
+
+    <section class="menu-block">
+      <div class="menu-details">
+        <h3>VISIT OUR CAFE</h3>
+        <ul>
+          <li>Address: Street 12, Sector H-8, Islamabad</li>
+          <li>Hours: Mon – Sun (8:00 AM – 11:00 PM)</li>
+        </ul>
+        <button class="btn-view" onclick="viewMore('Location')">FIND ON MAP</button>
+      </div>
+      <div class="menu-image">
+        <img src="coffee.jpg" alt="Cafe Location Image">
+      </div>
+    </section>
+
+    <section class="menu-block">
+      <div class="menu-details">
+        <h3>RESERVATIONS & ENQUIRIES</h3>
+        <ul>
+          <li>Phone: +92 (51) 111-222-333</li>
+          <li>Email: hello@warmbrewcafe.com</li>
+        </ul>
+        <button class="btn-view" onclick="viewMore('Reservations')">BOOK A TABLE</button>
+      </div>
+      <div class="menu-image">
+        <img src="drinks.jpg" alt="Table Reservation Image">
+      </div>
+    </section>
+
+    <section class="menu-block">
+      <div class="menu-details">
+        <h3>FEEDBACK & REVIEWS</h3>
+        <ul>
+          <li>We value your thoughts and suggestions</li>
+          <li>Drop us a note on your recent visit</li>
+        </ul>
+        <button class="btn-view" onclick="viewMore('Feedback')">LEAVE FEEDBACK</button>
+      </div>
+      <div class="menu-image">
+        <img src="dessert.jpg" alt="Feedback Image">
+      </div>
+    </section>
+
+    <div class="order-container">
+      <button class="btn-order" onclick="placeOrder()">SEND MESSAGE</button>
+    </div>
+  </main>
+
+  <script src="code.js"></script>
+</body>
+</html>
